@@ -1,0 +1,13 @@
+.header__lang-link {
+    color: #FFFFFF;
+    text-align: right;
+    }
+    .header__lang-link:hover {
+        opacity: 0.5;
+    }
+    .header__lang-link:nth-of-type(2) {
+    border-radius: nullpx;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: right;
+    }

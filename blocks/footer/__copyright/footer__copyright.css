@@ -1,0 +1,12 @@
+.footer__copyright {
+    display: flex;
+    font-size  : 14px;
+    line-height: 16px;
+    align-items:   center;
+}
+@media only screen and ( min-device-width: 320px) and ( max-device-width: 767px) {
+    .footer__copyright {
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+}
