@@ -4,7 +4,7 @@
     line-height: 22px;
     font-size: 18px;
     text-decoration: underline;
-    margin-bottom: 48px;
+    margin-bottom: 0px;
 }
 .places__link:hover {
     opacity: 0.5;

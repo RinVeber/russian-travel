@@ -1,9 +1,8 @@
 .intro {
     margin-top: 92px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 148px;
     margin-bottom: 0px;
-    max-width: 680px;
+    max-width: 690px;
     text-align: left;
     }
     @media only screen and ( min-device-width: 1024px) and ( max-device-width: 1279px) {
