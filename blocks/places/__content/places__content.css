@@ -1,4 +1,4 @@
-.place__content {
+.places__content {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -7,7 +7,7 @@
     margin: 0 0 80px;
     }
     @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
-        .place__content {
+        .places__content {
             grid-template-columns: auto;
             grid-template-rows: repeat(3, auto);
             grid-column-gap: 0;
