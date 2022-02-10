@@ -13,7 +13,6 @@
             max-width: 720px;
             padding: 88px 0 0;
             grid-template-columns: repeat(2, 1fr);
-            
         }
     }
     
@@ -22,7 +21,6 @@
             max-width: 928px;
             grid-template-columns: repeat(3, 1fr);
             grid-gap: 14px;
-           
         }
     }
     @media only screen and (min-width: 320px) and (max-width: 767px) {
