@@ -2,7 +2,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 92px;
-    padding: 0 ;
+    padding: 0;
     max-width: calc(100% - 96px);
     }
     @media only screen and ( max-device-width: 767px) {
