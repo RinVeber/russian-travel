@@ -6,23 +6,23 @@
     margin-right: auto;
 
     }
-    @media only screen and ( min-device-width: 1024px) and ( max-device-width: 1279px) {
+    @media only screen and ( max-device-width: 1279px) {
         .intro {
             max-width: calc(100% - 96px);
         }
     }
-    @media only screen and ( min-device-width: 320px) and ( max-device-width: 767px) {
+    @media only screen and ( max-device-width: 767px) {
         .intro {
            max-width: calc(100% - 32px);
             margin-top: 64px;
-            margin-left: auto;
-            margin-right: auto;
+           
         }
     }
     
-    @media only screen and ( min-device-width: 768px) and ( max-device-width: 1023px) {
+    @media only screen and ( max-device-width: 1023px) {
         .intro {
             margin-left: 24px;
             margin-right: 24px;
+            margin-top: 88px;
         }
     }
