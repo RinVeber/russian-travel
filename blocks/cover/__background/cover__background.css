@@ -16,9 +16,20 @@
     z-index: 3;
     background-size: cover;
 }
-.cover__background:hover .cover__overlay{
+.cover__background::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: #2A2C2F;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 1;
+    transition: all ease 0.3;
+}
+.cover__background:hover::before {
     opacity: 0.5;
 }
+
 @media only screen and ( min-device-width: 320px) and ( max-device-width: 767px) {
     .cover__background {
         min-height: 200px;

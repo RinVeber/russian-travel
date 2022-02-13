@@ -2,15 +2,18 @@
     max-width: 984px;
     margin: 0 auto;
     }
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1279px) {
+    @media only screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
         .places {
-            margin-left: 48px;
-            margin-right: 48px;
+            max-width: calc(100% - 96px);
         }
     }
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
         .places {
-            margin-left: 24px;
-            margin-right: 24px;
+            max-width: calc(100% - 48px);
+        }
+    }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+        .places {
+            max-width: 100%;
         }
     }

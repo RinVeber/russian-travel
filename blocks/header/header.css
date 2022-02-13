@@ -5,5 +5,18 @@
     margin: 0 auto;
     padding-top: 28px;
     padding-bottom: 0;
-    
+    max-width: calc(100% - 96px);
+    }
+
+    @media only screen and ( min-device-width: 768px) and ( max-device-width: 1023px) {
+        .header {
+            max-width: calc(100% - 48px);
+        }
+    }
+
+    @media only screen and ( min-device-width: 320px) and ( max-device-width: 767px) {
+        .header {
+            max-width: calc(100% - 32px);
+            padding-top: 16px;
+        }
     }

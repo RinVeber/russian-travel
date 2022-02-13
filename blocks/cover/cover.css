@@ -1,6 +1,25 @@
 .cover {
-    margin-bottom: 92px;
+    margin-bottom: 0;
     margin-top: 92px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 92px auto 0 auto;
+    max-width: calc(100% - 96px);
+    }
+
+    @media only screen and ( min-device-width: 320px) and ( max-device-width: 767px) {
+        .cover {
+            max-width: 100%;
+            margin-top: 66px;
+        }
+    }
+    @media only screen and ( min-device-width: 768px) and ( max-device-width: 1023px) {
+        .cover {
+            margin-top: 90px;
+            max-width: 100%;
+        }
+    }
+    @media only screen and ( min-device-width: 1024px) and ( max-device-width: 1279px) {
+        .cover {
+            margin-top: 92px;
+            max-width: 100%;
+        }
     }
