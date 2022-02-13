@@ -4,7 +4,7 @@
     margin-bottom: 92px;
     padding: 0 ;
     }
-    @media only screen and ( min-device-width: 320px) and ( max-device-width: 768px) {
+    @media only screen and ( min-device-width: 320px) and ( max-device-width: 767px) {
         .photo-grid {
             margin-bottom: 64px;
         }
