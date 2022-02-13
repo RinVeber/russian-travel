@@ -10,4 +10,7 @@
         .places__item {
             margin: 0 0 50px;
         }
+        .place__item:last-child {
+            margin-bottom: 66px;
+        }
     }

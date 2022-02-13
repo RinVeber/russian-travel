@@ -4,14 +4,15 @@
     font-weight: normal;
     margin-bottom: 0;
     }
-    @media only screen and (max-device-width: 767px) {
+    @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
         .places__text {
-            margin-left: 16px;
-            margin-right: 16px;
+            max-width: calc(100% - 32px);
             font-size: 16px;
+            margin-right: 16px;
+            margin-left: 16px;
         }
     }
-    @media only screen and (max-device-width: 1024px) {
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
         .places__text {
             font-size: 18px;
         }
