@@ -1,5 +1,4 @@
 .cover__background {
-    min-height: 740px;
     max-width: 1280px;
     margin-right: auto;
     margin-left: auto;
@@ -29,17 +28,17 @@
 .cover__background:hover::before {
     opacity: 0.5;
 }
-@media only screen and (min-device-width: 1024px) and ( max-device-width: 1279px) {
+@media only screen and (max-width: 1279px) {
     .cover__background {
         min-height: 640px;
     }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+@media only screen and (max-width: 1023px) {
     .cover__background {
         min-height: 480px;
     }
 }
-@media only screen and (min-device-width: 320px) and ( max-device-width: 767px) {
+@media only screen and (max-width: 767px) {
     .cover__background {
         min-height: 200px;
     }

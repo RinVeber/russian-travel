@@ -4,14 +4,14 @@
     margin: 0;
     max-width: 460px;
     }
-    @media only screen and ( max-width: 1023px) {
+    @media only screen and (max-width: 1023px) {
         .places__title {
             font-size: 42px;
             line-height: 46px;
         }
     }
     
-    @media only screen and ( max-width: 767px) {
+    @media only screen and (max-width: 767px) {
         .places__title {
             font-size: 32px;
             line-height: 35px;

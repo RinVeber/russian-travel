@@ -6,7 +6,7 @@
     line-height: 18px;
     }
     
-    @media only screen and ( max-device-width: 767px) {
+    @media only screen and (max-width: 767px) {
         .intro__list {
             margin-top: 34px;
         }

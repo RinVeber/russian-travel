@@ -3,12 +3,12 @@
     margin: 0 auto;
     text-align: center;
     }
-@media only screen and ( max-width: 1279px) {
+@media only screen and (max-width: 1279px) {
         .lead {
             max-width: calc(100% - 96px);
         }
 }
-@media only screen and ( max-width: 1023px) {
+@media only screen and (max-width: 1023px) {
         .lead {
            max-width: 100%;
         }

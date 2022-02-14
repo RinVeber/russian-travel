@@ -4,9 +4,10 @@
     margin: 0;
     }
     
-    @media only screen and ( max-width: 767px) {
+    @media only screen and (max-width: 767px) {
         .header__logo {
             max-height: 42px;
             max-width: 142px;
+            padding: 0;
         }
     }
