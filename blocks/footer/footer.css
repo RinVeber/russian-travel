@@ -5,14 +5,14 @@
     justify-content: space-between;
     padding-bottom: 24px;
 }
-@media only screen and ( max-device-width: 1023px) {
+@media only screen and ( max-width: 1023px) {
     .footer {
         max-width: calc(100% - 48px);
         margin-top: 88px;
     }
 }
 
-@media only screen and ( max-device-width: 767px) {
+@media only screen and ( max-width: 767px) {
     .footer {
         max-width: calc(100% - 32px);
         flex-direction: column;
