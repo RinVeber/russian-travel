@@ -12,7 +12,6 @@
 }
 @media only screen and (max-width: 1024px) {
     .places__content {
-        grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 28px;
     }
 }
